@@ -23,8 +23,7 @@ An interactive DSA Visualizer built using HTML, CSS, and JavaScript.
 - JavaScript
 
 ## Live Demo
-
-https://github.com/Dhondi-Koustubha-Amulya/DSA-Visualizer.git
+https://dhondi-koustubha-amulya.github.io/DSA-Visualizer/
 
 
 ## How to Run
