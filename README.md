@@ -24,10 +24,12 @@ An interactive DSA Visualizer built using HTML, CSS, and JavaScript.
 
 ## Live Demo
 
-Paste your GitHub Pages link here
+https://github.com/Dhondi-Koustubha-Amulya/DSA-Visualizer.git
+
 
 ## How to Run
 
 1. Clone the repository
 2. Open index.html in a browser
 3. Start visualizing algorithms
+
