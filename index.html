@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DSA Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <body>
+
+
+        <div class="top-bar">
+
+            <h1>DSA Visualizer</h1>
+
+            <div class="buttons">
+
+                <button id="generate">Generate Array</button>
+
+                <button id="bubble">Bubble Sort</button>
+                <button id="selection">Selection Sort</button>
+                <button id="insertion">Insertion Sort</button>
+                <button id="merge">Merge Sort</button>
+                <button id="quick">Quick Sort</button>
+                <button id="linear">Linear Search</button>
+                <button id="binary">Binary Search</button>
+
+            </div>
+
+        </div>
+
+        <div class="legend">
+            <span class="legend-item">
+                <span class="blue-box"></span> Normal
+            </span>
+
+            <span class="legend-item">
+                <span class="red-box"></span> Comparing
+            </span>
+
+            <span class="legend-item">
+                <span class="green-box"></span> Sorted
+            </span>
+
+            <span class="legend-item">
+                <span class="purple-box"></span> Pivot
+            </span>
+        </div>
+
+        <div class="middle-section">
+
+            <div class="controls-panel">
+
+                <input type="number" id="searchInput" placeholder="Enter value" />
+
+                <br><br>
+
+                <label>Array Size:</label>
+
+                <input type="range" id="sizeSlider" min="5" max="50" value="20">
+
+                <span id="sizeValue">20</span>
+
+                <br><br>
+
+                <label>Speed:</label>
+
+                <input type="range" id="speedSlider" min="50" max="1000" value="500">
+
+                <span id="speedValue">500</span>
+
+            </div>
+
+            <div id="complexity-box">
+
+                <h3>Algorithm Information</h3>
+
+                <p id="algorithm-name">
+                    Algorithm: None
+                </p>
+
+                <p id="time-complexity">
+                    Time Complexity:
+                </p>
+
+                <p id="space-complexity">
+                    Space Complexity:
+                </p>
+
+            </div>
+
+        </div>
+
+        <div id="array-container"></div>
+
+        <script src="script.js"></script>
+
+   
+
+    </body>
+
+</html>
